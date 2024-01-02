@@ -13,6 +13,8 @@
 		CC77DBD62B43B43B007925C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC77DBD52B43B43B007925C7 /* Preview Assets.xcassets */; };
 		CC77DBDD2B43B842007925C7 /* observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77DBDC2B43B842007925C7 /* observable.swift */; };
 		CC77DBDF2B43BC04007925C7 /* DeletingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77DBDE2B43BC04007925C7 /* DeletingItems.swift */; };
+		CC78BC352B44BADC00D44EDE /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC78BC342B44BADC00D44EDE /* Store.swift */; };
+		CC78BC372B44C7A600D44EDE /* storeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC78BC362B44C7A600D44EDE /* storeModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		CC77DBD52B43B43B007925C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC77DBDC2B43B842007925C7 /* observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observable.swift; sourceTree = "<group>"; };
 		CC77DBDE2B43BC04007925C7 /* DeletingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItems.swift; sourceTree = "<group>"; };
+		CC78BC342B44BADC00D44EDE /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CC78BC362B44C7A600D44EDE /* storeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				CC77DBD42B43B43B007925C7 /* Preview Content */,
 				CC77DBDC2B43B842007925C7 /* observable.swift */,
 				CC77DBDE2B43BC04007925C7 /* DeletingItems.swift */,
+				CC78BC342B44BADC00D44EDE /* Store.swift */,
+				CC78BC362B44C7A600D44EDE /* storeModels.swift */,
 			);
 			path = iExpensive;
 			sourceTree = "<group>";
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC78BC352B44BADC00D44EDE /* Store.swift in Sources */,
 				CC77DBDF2B43BC04007925C7 /* DeletingItems.swift in Sources */,
 				CC77DBD12B43B43A007925C7 /* ContentView.swift in Sources */,
 				CC77DBCF2B43B43A007925C7 /* iExpensiveApp.swift in Sources */,
 				CC77DBDD2B43B842007925C7 /* observable.swift in Sources */,
+				CC78BC372B44C7A600D44EDE /* storeModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
