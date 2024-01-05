@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC6E1C3E2B46007A00B10C54 /* listDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E1C3D2B46007A00B10C54 /* listDelete.swift */; };
+		CC6E1C402B460DA800B10C54 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6E1C3F2B460DA800B10C54 /* AddView.swift */; };
 		CC77DBCF2B43B43A007925C7 /* iExpensiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77DBCE2B43B43A007925C7 /* iExpensiveApp.swift */; };
 		CC77DBD12B43B43A007925C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77DBD02B43B43A007925C7 /* ContentView.swift */; };
 		CC77DBD32B43B43B007925C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC77DBD22B43B43B007925C7 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC6E1C3D2B46007A00B10C54 /* listDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listDelete.swift; sourceTree = "<group>"; };
+		CC6E1C3F2B460DA800B10C54 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		CC77DBCB2B43B43A007925C7 /* iExpensive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpensive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC77DBCE2B43B43A007925C7 /* iExpensiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpensiveApp.swift; sourceTree = "<group>"; };
 		CC77DBD02B43B43A007925C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				CC77DBDE2B43BC04007925C7 /* DeletingItems.swift */,
 				CC78BC342B44BADC00D44EDE /* Store.swift */,
 				CC78BC362B44C7A600D44EDE /* storeModels.swift */,
+				CC6E1C3D2B46007A00B10C54 /* listDelete.swift */,
+				CC6E1C3F2B460DA800B10C54 /* AddView.swift */,
 			);
 			path = iExpensive;
 			sourceTree = "<group>";
@@ -153,8 +159,10 @@
 				CC77DBDF2B43BC04007925C7 /* DeletingItems.swift in Sources */,
 				CC77DBD12B43B43A007925C7 /* ContentView.swift in Sources */,
 				CC77DBCF2B43B43A007925C7 /* iExpensiveApp.swift in Sources */,
+				CC6E1C402B460DA800B10C54 /* AddView.swift in Sources */,
 				CC77DBDD2B43B842007925C7 /* observable.swift in Sources */,
 				CC78BC372B44C7A600D44EDE /* storeModels.swift in Sources */,
+				CC6E1C3E2B46007A00B10C54 /* listDelete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
